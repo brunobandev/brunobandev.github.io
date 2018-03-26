@@ -1,0 +1,36 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Bruno Bandeira
+tagline:             Developer and Gamer from Brazil.
+url:                 http://brunobandeira.me
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Bruno Bandeira
+  url:               https://twitter.com/brunobandev
+  email:             brunoban.dev@gmail.com
+
+# Custom vars
+version:             2.0.1
+github:
+  repo:              https://github.com/brunobandev
+google_analytics:    UA-3363703-15
+twitter:             brunobandev
+github:              brunobandev
+linkedin:            brunobandev
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
